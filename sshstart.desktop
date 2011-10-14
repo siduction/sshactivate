@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Exec=su-to-root -c /usr/sbin/sshstart
+Icon=sshstart
+Terminal=true
+Name=sshstart
+GenericName=Start SSH Server (Remote access)
+GenericName[de]=SSH Server starten (Remote-Zugang)
+GenericName[ru]=Запуск сервера SSH (дистан. доступ)
+GenericName[es]=Arrancar servidor SSH (Acceso remoto)
+GenericName[pt]=Lançar servidor SSH (Acceso remoto)
+GenericName[pt_BR]=Lançar servidor SSH (Acceso remoto)
+Categories=Network;

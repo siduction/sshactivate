@@ -1,0 +1,24 @@
+Source: sshstart
+Section: net
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+ Ferdinand Thommes <devil@siduction.org>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
+Vcs-Svn:
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/sshstart
+
+Package: sshstart
+Architecture: all
+Depends: ${misc:Depends},
+ openssh-server,
+ procps
+Recommends: menu
+Suggests: xterm | x-terminal-emulator
+Description: set ssh passwords
+ Generates ssh2 host keys and starts the installed Secure Shell (SSH) Server
+ (OpenSSH). Additionally a password needs to be set for the live user, root
+ passwords need to be set manually.
+ .
+ This is a FULLSTORY live-only package and must not be installed to an
+ ordinary system.
