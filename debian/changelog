@@ -1,6 +1,9 @@
-sshstart (0.6.24) UNRELEASED; urgency=low
+sshstart (0.7) ; urgency=low
 
-  * NOT RELEASED YET
+  * bumped version to 0.7
+
+ -- Ferdinand Thommes <devil@siduction.org> Mon, 17 Oct 2011 10:51:13 +0200
+
  -- Ferdinand Thommes <devil@siduction.org> Fri, 14 Oct 2011 00:31:13 +0200
 
   * adapted sshstart for siduction
