@@ -9,7 +9,7 @@ sshstart (0.6.24+nmu1) UNRELEASED; urgency=low
 
   * adapted sshstart for siduction
 
- -- Ferdinand Thommes <devil@siduction.org> Fri, 14 Oct 2011 00:31:13 +0200
+ -- Ferdinand Thommes <devil@siduction.org>  Fri, 14 Oct 2011 00:31:13 +0200
 
 sshstart (0.6.24) UNRELEASED; urgency=low
 
