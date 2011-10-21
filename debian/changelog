@@ -1,12 +1,19 @@
-sshstart (0.7) ; urgency=low
+sshstart (0.6.24+nmu2) UNRELEASED; urgency=low
 
-  * bumped version to 0.7
+  * Non-maintainer upload.
+  * fixes #258 - fix sshstart ./debian
 
- -- Ferdinand Thommes <devil@siduction.org> Mon, 17 Oct 2011 10:51:13 +0200
+ -- Alf Gaida <info@g-com.eu>  Sat, 22 Oct 2011 00:07:42 +0200
+
+sshstart (0.6.24+nmu1) UNRELEASED; urgency=low
+
+  * adapted sshstart for siduction
 
  -- Ferdinand Thommes <devil@siduction.org> Fri, 14 Oct 2011 00:31:13 +0200
 
-  * adapted sshstart for siduction
+sshstart (0.6.24) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 05:02:25 +0200
 
