@@ -2,9 +2,10 @@ Source: sshstart
 Section: net
 Priority: optional
 Maintainer: Ferdinand Thommes <devil@siduction.org>
+Uploaders: Alf Gaida <agaida@siduction.org>
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8)
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/sshstart.git
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/sshstart.git
 Homepage: http://svn.berlios.de/wsvn/fullstory/sshstart

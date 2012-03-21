@@ -1,3 +1,12 @@
+sshstart (0.6.25) UNRELEASED; urgency=low
+
+  * added myself to uploaders
+  * bump standards to 3.9.3
+  * debhelper (>=9)
+  * bump compat to 9
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 17:39:25 +0100
+
 sshstart (0.6.24+nmu2) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
