@@ -1,2 +1,7 @@
 debian/files
-debian/sshstart*
+debian/sshstart.debhelper.log
+debian/sshstart.postinst.debhelper
+debian/sshstart.postrm.debhelper
+debian/sshstart.substvars
+debian/sshstart/
+
