@@ -1,3 +1,11 @@
+sshstart (2014.01.08) unstable; urgency=medium
+
+  * new copyright format
+  * new standards 3.9.5
+  * inkscape and imagemagick as build-dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jan 2014 20:09:25 +0100
+
 sshstart (0.6.26) unstable; urgency=low
 
   * source.lintian-overides to get rid of XSBC-Original-Maintainer Warning
