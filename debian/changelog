@@ -1,3 +1,15 @@
+sshstart (2014.10.13) unstable; urgency=medium
+
+  * modified debian/ssshstart.menu for icon in fluxbox menu
+
+ -- Angelescu Ovidiu <convbsd@siduction.org>  Mon, 13 Oct 2014 00:01:13 +0300
+
+sshstart (2014.09.07) unstable; urgency=medium
+
+  * merge upstream
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 07 Sep 2014 00:33:28 +0200
+
 sshstart (2014.01.08) unstable; urgency=medium
 
   * new copyright format

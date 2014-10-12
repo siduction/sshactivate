@@ -3,6 +3,5 @@
 	section="Applications/System/Administration" \
 	hints="siduction,Config" \
 	title="Start SSH Server" \
-	icon32x32="/usr/share/pixmaps/sshstart.xpm" \
-	icon16x16="/usr/share/pixmaps/sshstart-16.xpm" \
+	icon="/usr/share/pixmaps/sshstart.xpm" \
 	command="su-to-root -c /usr/sbin/sshstart"

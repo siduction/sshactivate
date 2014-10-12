@@ -11,3 +11,4 @@ GenericName[es]=Arrancar servidor SSH (Acceso remoto)
 GenericName[pt]=Lançar servidor SSH (Acceso remoto)
 GenericName[pt_BR]=Lançar servidor SSH (Acceso remoto)
 Categories=Network;
+Keywords=ssh;sshd;openssh;
