@@ -1,38 +1,47 @@
 #!/bin/sh
 # sshstart - Start SSHD and set a password (if necessary)
-# Copyright: 2001      Klaus Knopper <knopper@knopper.net>
-#            2004      Joerg Schirottke Jan
-#            2004-2014 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-#            2007      Kel Modderman <kel@otaku42.de>
-#            2011      Ferdinand Thommes <devil@siduction.org>
-#            2012-2014 Alf Gaida <agaida@siduction.org>
+
+# Copyright (C) 2001, Klaus Knopper <knopper@knopper.net>
+# Copyright (C) 2004, Joerg Schirottke Jan
+# Copyright (C) 2004-2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+# Copyright (C) 2007, Kel Modderman <kel@otaku42.de>
+
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; version 2 of the
+# License.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 
 # override tool behaviour through distro-defaults
 FLL_LIVE_USER="siduction"
 if [ -s /etc/default/distro ]; then
-    . /etc/default/distro
+	. /etc/default/distro
 fi
 
 if [ "$(id -u)" -ne 0 ]; then
-    [ -x "$(which su-to-root)" ] && exec su-to-root -X -c "$0" "$@"
-        printf "ERROR: $0 needs root capabilities, please start it as root.\n\n" >&2
-    exit 1
+	[ -x "$(which su-to-root)" ] && exec su-to-root -X -c "$0" "$@"
+	printf "ERROR: $0 needs root capabilities, please start it as root.\n\n" >&2
+	exit 1
 fi
 
 if [ ! -x /etc/init.d/ssh ]; then
-    echo "openssh-server is not installed, aborting."
-    exit 2
+	echo "openssh-server is not installed, aborting."
+	exit 2
 fi
 
 if pgrep -x sshd >/dev/null; then
-    echo "openssh-server is already running, aborting."
-    exit 3
+	echo "openssh-server is already running, aborting."
+	exit 3
 fi
 
 # use keygen if needed
 if [ ! -e /etc/ssh/ssh_host_rsa_key ]; then
-    echo "Generating SSH2 RSA key..."
-    ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -C '' -N ''
+	echo "Generating SSH2 RSA key..."
+	ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -C '' -N ''
 
 	if which restorecon >/dev/null 2>&1; then
 		restorecon	/etc/ssh/ssh_host_rsa_key \
@@ -41,8 +50,8 @@ if [ ! -e /etc/ssh/ssh_host_rsa_key ]; then
 fi
 
 if [ ! -e /etc/ssh/ssh_host_dsa_key ]; then
-    echo "Generating SSH2 DSA key..."
-    ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -C '' -N ''
+	echo "Generating SSH2 DSA key..."
+	ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -C '' -N ''
 
 	if which restorecon >/dev/null 2>&1; then
 		restorecon	/etc/ssh/ssh_host_dsa_key \
@@ -51,8 +60,9 @@ if [ ! -e /etc/ssh/ssh_host_dsa_key ]; then
 fi
 
 if [ ! -e /etc/ssh/ssh_host_ecdsa_key ]; then
-    echo "Generating SSH2 ECDSA key..."
-    ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key -C '' -N ''
+	echo "Generating SSH2 ECDSA key..."
+	ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key -C '' -N ''
+
 	if which restorecon >/dev/null 2>&1; then
 		restorecon	/etc/ssh/ssh_host_ecdsa_key \
 				/etc/ssh/ssh_host_ecdsa_key.pub
@@ -68,17 +78,18 @@ if [ ! -e /etc/ssh/ssh_host_ed25519_key ]; then
 				/etc/ssh/ssh_host_ed25519_key.pub
 	fi
 fi
+
 service ssh start
 
 if [ "$?" -ne 0 ]; then
-    echo "openssh-server failed to start, aborting."
-    exit 4
+	echo "openssh-server failed to start, aborting."
+	exit 4
 fi
 
 until ! grep -q "^$FLL_LIVE_USER:\*:" /etc/shadow; do
-    echo ""
-    echo "Set password for user '$FLL_LIVE_USER'"
-    passwd "$FLL_LIVE_USER"
+	echo ""
+	echo "Set password for user '$FLL_LIVE_USER'"
+	passwd "$FLL_LIVE_USER"
 done
 
 echo ""

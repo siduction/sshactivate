@@ -1,4 +1,0 @@
-# stop lintian complaining about man-page. We never
-# will write a manpage for sshstart 
-sshstart: binary-without-manpage usr/sbin/sshstart
-

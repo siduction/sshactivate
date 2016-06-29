@@ -1,12 +1,15 @@
 #!/usr/bin/make -f
 
-DH_VERBOSE=1
-
-
 %:
-	dh $@
+	dh ${@} --parallel
 
 create-icons:
+	# requires inkscape to be installed
+	@if [ ! -x /usr/bin/inkscape ]; then \
+		echo "ERROR: inkscape not installed!" ; \
+		false ; \
+	fi
+	
 	# create XDG compatible icons from SVG
 	for i in 16 22 32 48 64 128; do \
 		mkdir -p "icons/hicolor/$${i}x$${i}/apps" ; \
@@ -15,8 +18,3 @@ create-icons:
 			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/sshstart.png" \
 				$(CURDIR)/icons/sshstart.svg ; \
 	done
-	
-	# create XPM icons for the debian menu system
-	mkdir -p icons/pixmaps
-	convert icons/hicolor/32x32/apps/sshstart.png icons/pixmaps/sshstart.xpm
-	convert icons/hicolor/16x16/apps/sshstart.png icons/pixmaps/sshstart-16.xpm

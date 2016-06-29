@@ -1,7 +1,0 @@
-?package(sshstart): \
-	needs="text" \
-	section="Applications/System/Administration" \
-	hints="siduction,Config" \
-	title="Start SSH Server" \
-	icon="/usr/share/pixmaps/sshstart.xpm" \
-	command="su-to-root -c /usr/sbin/sshstart"
