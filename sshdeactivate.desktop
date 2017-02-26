@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=su-to-root -c /usr/sbin/sshdeactivate
+Icon=sshdeactivate
+Terminal=true
+Name=sshdeactivate
+GenericName=Deaktivate SSH Server (Remote access)
+GenericName[de]=SSH Server deaktivieren (Remote-Zugang)
+Categories=Network;
+Keywords=ssh;sshd;openssh;

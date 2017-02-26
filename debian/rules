@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh ${@} --parallel
+	dh ${@}
 
 create-icons:
 	# requires inkscape to be installed
@@ -15,6 +15,15 @@ create-icons:
 		mkdir -p "icons/hicolor/$${i}x$${i}/apps" ; \
 		inkscape --export-width=$${i} \
 			 --export-height=$${i} \
-			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/sshstart.png" \
-				$(CURDIR)/icons/sshstart.svg ; \
+			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/sshactivate.png" \
+				$(CURDIR)/icons/sshactivate.svg ; \
 	done
+	for i in 16 22 32 48 64 128; do \
+		mkdir -p "icons/hicolor/$${i}x$${i}/apps" ; \
+		inkscape --export-width=$${i} \
+			 --export-height=$${i} \
+			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/sshdeactivate.png" \
+				$(CURDIR)/icons/sshdeactivate.svg ; \
+	done
+
+

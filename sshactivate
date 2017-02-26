@@ -17,7 +17,7 @@
 # GNU General Public License for more details.
 
 # override tool behaviour through distro-defaults
-FLL_LIVE_USER="siduction"
+FLL_LIVE_USER="siducer"
 if [ -s /etc/default/distro ]; then
 	. /etc/default/distro
 fi
@@ -79,7 +79,8 @@ if [ ! -e /etc/ssh/ssh_host_ed25519_key ]; then
 	fi
 fi
 
-service ssh start
+systemctl enable ssh
+systemctl start ssh
 
 if [ "$?" -ne 0 ]; then
 	echo "openssh-server failed to start, aborting."

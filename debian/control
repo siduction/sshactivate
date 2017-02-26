@@ -1,25 +1,21 @@
-Source: sshstart
+Source: sshactivate
 Section: net
 Priority: optional
-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Uploaders: Niall Walsh <niallwalsh@celtux.org>,
-           Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9.20120115)
-Standards-Version: 3.9.6
-Vcs-git: git://github.com/fullstory/sshstart.git
-Vcs-Browser: https://github.com/fullstory/sshstart
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+Vcs-git: https://git.siduction.org
+Vcs-Browser: https://git.siduction.org
 
-Package: sshstart
+Package: sshactivate
 Architecture: all
 Depends: ${misc:Depends},
- openssh-server,
- procps
+         openssh-server,
+         procps
 Recommends: menu
 Suggests: xterm | x-terminal-emulator
-Description: set ssh passwords
+Description: set ssh passwords and activate/deactivate SSHD
  Generates ssh2 host keys and starts the installed Secure Shell (SSH) Server
  (OpenSSH). Additionally a password needs to be set for the live user, root
  passwords need to be set manually.
- .
- This is a FULLSTORY live-only package and must not be installed to an
- ordinary system.
+ 

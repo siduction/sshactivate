@@ -1,4 +1,7 @@
-sshstart		usr/sbin
-sshstart.desktop	usr/share/applications
-icons/sshstart.svg	usr/share/icons/hicolor/scalable/apps/
+sshactivate		usr/sbin
+sshdeactivate           usr/sbin
+sshactivate.desktop	usr/share/applications
+sshdeactivate.desktop   usr/share/applications
+icons/sshactivate.svg	usr/share/icons/hicolor/scalable/apps/
+icons/sshdeactivate.svg usr/share/icons/hicolor/scalable/apps/
 icons/hicolor		usr/share/icons/

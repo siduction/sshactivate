@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=su-to-root -c /usr/sbin/sshactivate
+Icon=sshactivate
+Terminal=true
+Name=sshactivate
+GenericName=Aktivate SSH Server (Remote access)
+GenericName[de]=SSH Server aktivieren (Remote-Zugang)
+Categories=Network;
+Keywords=ssh;sshd;openssh;

@@ -1,8 +1,17 @@
-sshstart (0.7.4) UNRELEASED; urgency=medium
+sshactivate (2017.1.1) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * fix wrong pngs
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 02 Sep 2015 20:04:44 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Feb 2017 01:25:41 +0100
+
+sshactivate (2017.1.0) unstable; urgency=medium
+
+  * fix fll-user and ssh start
+  * renamed the package
+  * renamed the start script
+  * added deactivate script
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Feb 2017 00:48:05 +0100
 
 sshstart (0.7.3) unstable; urgency=medium
 

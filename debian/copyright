@@ -1,16 +1,16 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: sshstart
-Upstream-Contact: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Source: git://github.com/fullstory/sshstart.git
+Source: https://github.com/fullstory/sshstart.git
 
 Files: *
-Copyright: 2001-2002, Klaus Knopper <knoppix@knopper.net>
-           2003, Jörg Schirottke <master@kanotix.com>
-           2004-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2001-2002 Klaus Knopper <knoppix@knopper.net>
+           2003      Jörg Schirottke <master@kanotix.com>
+           2004-2015 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2016-2017 Alf Gaida <agaida@sidution.org>
 License: GPL-2.0
 
 Files: debian/*
-Copyright: 2005-2015, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2005-2015 Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2012-2014 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
