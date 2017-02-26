@@ -14,9 +14,9 @@
    height="128"
    id="svg1307"
    sodipodi:version="0.32"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.92.1 r15371"
    version="1.0"
-   sodipodi:docname="sshstart.svg"
+   sodipodi:docname="sshactivate.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/david/Oxygen/dialog-password.png"
    inkscape:export-xdpi="90"
@@ -464,15 +464,6 @@
          stdDeviation="2.4348633"
          id="feGaussianBlur3910" />
     </filter>
-    <radialGradient
-       r="40.0294"
-       cy="59.186501"
-       cx="53.1978"
-       gradientTransform="matrix(0.6667,0,0,0.7574,20.7214,14.064)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3253"
-       xlink:href="#radialGradient3163"
-       inkscape:collect="always" />
     <linearGradient
        y2="4.882812e-04"
        x2="58.0005"
@@ -609,7 +600,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.375"
-     inkscape:cx="44.620249"
+     inkscape:cx="-5.7501214"
      inkscape:cy="35.601373"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -759,11 +750,10 @@
        inkscape:label="aptosid">
       <text
          xml:space="preserve"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Dustismo;-inkscape-font-specification:'Dustismo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none"
          x="246.53732"
          y="1555.3855"
          id="text3113"
-         sodipodi:linespacing="125%"
          inkscape:export-filename="logo-current.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90"><tspan
@@ -771,9 +761,10 @@
            id="tspan3115"
            x="246.53732"
            y="1555.3855"
-           dx="0 0 26.252148"><tspan
+           dx="0 0 26.252148"
+           style="font-size:144px;line-height:1.25"><tspan
              dx="-0.98228282 -4.3535538 121.26881"
-             style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:125%;font-family:Dustismo;-inkscape-font-specification:'Dustismo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none"
              id="tspan3117">to </tspan></tspan></text>
       <path
          sodipodi:nodetypes="ccccc"
@@ -953,8 +944,7 @@
          id="circle19"
          r="58"
          cy="58"
-         cx="58"
-         d="M 116,58 C 116,90.032515 90.032515,116 58,116 25.967485,116 0,90.032515 0,58 0,25.967485 25.967485,0 58,0 c 32.032515,0 58,25.967485 58,58 z" />
+         cx="58" />
       <g
          style="opacity:0.8;filter:url(#AI_Sfocatura_4)"
          transform="matrix(1.0833333,0,0,1.0833333,1.1666686,1.1666686)"
@@ -969,7 +959,7 @@
          d="M 12,63.999999 C 12,92.672581 35.327414,116 63.999998,116 92.672584,116 116,92.672581 116,63.999999 116,35.327415 92.672584,12 63.999998,12 35.327414,12 12,35.327415 12,63.999999 z" />
       <polygon
          transform="translate(6,6)"
-         style="fill:url(#radialGradient3253);fill-opacity:1"
+         style="fill:#00ff00;fill-opacity:1"
          id="polygon53"
          points="42,90 42,26 42,26 90,58 " />
       <path

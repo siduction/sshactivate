@@ -14,9 +14,9 @@
    height="128"
    id="svg1307"
    sodipodi:version="0.32"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.92.1 r15371"
    version="1.0"
-   sodipodi:docname="sshstart.svg"
+   sodipodi:docname="sshdeactivate.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/david/Oxygen/dialog-password.png"
    inkscape:export-xdpi="90"
@@ -464,15 +464,6 @@
          stdDeviation="2.4348633"
          id="feGaussianBlur3910" />
     </filter>
-    <radialGradient
-       r="40.0294"
-       cy="59.186501"
-       cx="53.1978"
-       gradientTransform="matrix(0.6667,0,0,0.7574,20.7214,14.064)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3253"
-       xlink:href="#radialGradient3163"
-       inkscape:collect="always" />
     <linearGradient
        y2="4.882812e-04"
        x2="58.0005"
@@ -481,12 +472,13 @@
        gradientUnits="userSpaceOnUse"
        id="linearGradient3251"
        xlink:href="#XMLID_6_"
-       inkscape:collect="always" />
+       inkscape:collect="always"
+       gradientTransform="matrix(0.58853204,0,0,0.58853204,59.730286,59.901805)" />
     <radialGradient
        r="48"
        cy="58"
        cx="58"
-       gradientTransform="matrix(1.0833333,0,0,1.0833333,1.1666673,1.1666673)"
+       gradientTransform="matrix(0.57780356,0,0,0.57780356,60.352536,60.524056)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient3246"
        xlink:href="#XMLID_7_"
@@ -496,7 +488,7 @@
        x2="104.0518"
        y1="34"
        x1="11.9487"
-       gradientTransform="translate(6.0000006,6.0000006)"
+       gradientTransform="matrix(0.53335715,0,0,0.53335715,62.930429,63.101949)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient3242"
        xlink:href="#XMLID_9_"
@@ -608,9 +600,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.375"
-     inkscape:cx="44.620249"
-     inkscape:cy="35.601373"
+     inkscape:zoom="1.6875"
+     inkscape:cx="176.53377"
+     inkscape:cy="18.840982"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
@@ -618,8 +610,8 @@
      guidetolerance="0.1px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1912"
-     inkscape:window-height="961"
+     inkscape:window-width="1920"
+     inkscape:window-height="1139"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showborder="true"
@@ -627,7 +619,7 @@
      gridtolerance="10000"
      borderlayer="true"
      inkscape:snap-global="false"
-     inkscape:window-maximized="0">
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid30563"
@@ -759,11 +751,10 @@
        inkscape:label="aptosid">
       <text
          xml:space="preserve"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Dustismo;-inkscape-font-specification:'Dustismo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none"
          x="246.53732"
          y="1555.3855"
          id="text3113"
-         sodipodi:linespacing="125%"
          inkscape:export-filename="logo-current.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90"><tspan
@@ -771,9 +762,10 @@
            id="tspan3115"
            x="246.53732"
            y="1555.3855"
-           dx="0 0 26.252148"><tspan
+           dx="0 0 26.252148"
+           style="font-size:144px;line-height:1.25"><tspan
              dx="-0.98228282 -4.3535538 121.26881"
-             style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:125%;font-family:Dustismo;-inkscape-font-specification:'Dustismo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e7e7e7;fill-opacity:1;stroke:none"
              id="tspan3117">to </tspan></tspan></text>
       <path
          sodipodi:nodetypes="ccccc"
@@ -939,43 +931,37 @@
        style="opacity:0.57786889;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1"
        inkscape:r_cx="true"
        inkscape:r_cy="true" />
+    <circle
+       cx="93.865143"
+       cy="94.036667"
+       r="34.134857"
+       id="circle19"
+       style="fill:url(#linearGradient3251);stroke-width:0.58853203" />
     <g
-       id="layer1-5"
-       inkscape:label="Layer 1"
-       transform="matrix(0.53335715,0,0,0.53335715,59.730286,59.901806)">
-      <circle
-         transform="matrix(1.1034483,0,0,1.1034483,0,-2.8e-6)"
-         sodipodi:ry="58"
-         sodipodi:rx="58"
-         sodipodi:cy="58"
-         sodipodi:cx="58"
-         style="fill:url(#linearGradient3251)"
-         id="circle19"
-         r="58"
-         cy="58"
-         cx="58"
-         d="M 116,58 C 116,90.032515 90.032515,116 58,116 25.967485,116 0,90.032515 0,58 0,25.967485 25.967485,0 58,0 c 32.032515,0 58,25.967485 58,58 z" />
-      <g
-         style="opacity:0.8;filter:url(#AI_Sfocatura_4)"
-         transform="matrix(1.0833333,0,0,1.0833333,1.1666686,1.1666686)"
-         id="g21">
-        <path
-           id="path23"
-           d="m 10,58 c 0,26.467 21.533,48 48,48 26.467,0 48,-21.533 48,-48 C 106,31.533 84.467,10 58,10 31.533,10 10,31.533 10,58 z" />
-      </g>
+       id="g21"
+       transform="matrix(0.57780356,0,0,0.57780356,60.352537,60.524057)"
+       style="opacity:0.8;filter:url(#AI_Sfocatura_4)">
       <path
-         style="fill:url(#radialGradient3246)"
-         id="path38"
-         d="M 12,63.999999 C 12,92.672581 35.327414,116 63.999998,116 92.672584,116 116,92.672581 116,63.999999 116,35.327415 92.672584,12 63.999998,12 35.327414,12 12,35.327415 12,63.999999 z" />
-      <polygon
-         transform="translate(6,6)"
-         style="fill:url(#radialGradient3253);fill-opacity:1"
-         id="polygon53"
-         points="42,90 42,26 42,26 90,58 " />
-      <path
-         style="opacity:0.5;fill:url(#linearGradient3242)"
-         id="path60"
-         d="M 63.999998,63.999999 C 81.788999,63.999999 97.967006,58.87 110.05199,50.491 104.19999,30.582 85.775999,16 63.999998,16 42.222999,16 23.798999,30.582999 17.949,50.491 30.032,58.87 46.209999,63.999999 63.999998,63.999999 z" />
+         inkscape:connector-curvature="0"
+         d="m 10,58 c 0,26.467 21.533,48 48,48 26.467,0 48,-21.533 48,-48 C 106,31.533 84.467,10 58,10 31.533,10 10,31.533 10,58 Z"
+         id="path23" />
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 66.130572,94.036663 c 0,15.292727 12.441843,27.734577 27.734571,27.734577 15.292727,0 27.734577,-12.44185 27.734577,-27.734577 0,-15.292728 -12.44185,-27.734571 -27.734577,-27.734571 -15.292728,0 -27.734571,12.441843 -27.734571,27.734571 z"
+       id="path38"
+       style="fill:url(#radialGradient3246);stroke-width:0.53335714" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.71278632;stroke-opacity:1"
+       id="rect167"
+       width="29.878607"
+       height="29.878607"
+       x="78.925842"
+       y="79.097359" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 93.865143,94.036663 c 9.487887,0 18.116547,-2.736122 24.562157,-7.205121 C 115.3061,76.212934 105.47953,68.43552 93.865143,68.43552 c -11.614919,0 -21.441491,7.777947 -24.56163,18.396022 6.444555,4.468999 15.073206,7.205121 24.56163,7.205121 z"
+       id="path60"
+       style="opacity:0.5;fill:url(#linearGradient3242);stroke-width:0.53335714" />
   </g>
 </svg>
