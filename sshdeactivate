@@ -13,13 +13,13 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
-rm -f /etc/ssh/ssh_host_rsa_key \
-rm -f /etc/ssh/ssh_host_rsa_key.pub
-rm -f /etc/ssh/ssh_host_dsa_key \
-rm -f /etc/ssh/ssh_host_ecdsa_key \
-rm -f /etc/ssh/ssh_host_ecdsa_key.pub
-rm -f /etc/ssh/ssh_host_ed25519_key \
-rm -f /etc/ssh/ssh_host_ed25519_key.pub
+# rm -f /etc/ssh/ssh_host_rsa_key \
+# rm -f /etc/ssh/ssh_host_rsa_key.pub
+# rm -f /etc/ssh/ssh_host_dsa_key \
+# rm -f /etc/ssh/ssh_host_ecdsa_key \
+# rm -f /etc/ssh/ssh_host_ecdsa_key.pub
+# rm -f /etc/ssh/ssh_host_ed25519_key \
+# rm -f /etc/ssh/ssh_host_ed25519_key.pub
 
 systemctl disable ssh
 systemctl stop ssh

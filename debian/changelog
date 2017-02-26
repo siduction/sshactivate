@@ -1,3 +1,10 @@
+sshactivate (2017.1.3) unstable; urgency=medium
+
+  * commented out key removal - disabling and stopping the sshd should
+    be sufficient 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Feb 2017 16:56:49 +0100
+
 sshactivate (2017.1.2) unstable; urgency=medium
 
   * fix icons 
