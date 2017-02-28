@@ -1,5 +1,5 @@
 #!/bin/sh
-# sshdeactivate - Stop and disable SSHD
+# sshdeactivate - Stops and disable SSHD
 
 # Copyright 2017  Alf Gaida <agaida@siduction.org>
 
